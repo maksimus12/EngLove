@@ -1,0 +1,420 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	font-family: Montserrat;
+}
+
+/* button {
+	all: unset;
+} */
+
+/******************************* Navbar container  ***********************/
+
+.header {
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	display: block;
+	background-color: #e2efff;
+	box-shadow: 1px 1px 15px #d8cfe4;
+	z-index: 2;
+}
+
+.inner_header {
+	display: table;
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.logo_header {
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+	color: #000;
+	font-family: Montserrat;
+	font-size: 14px;
+}
+
+.logo_header h1 {
+	font-weight: 200;
+}
+.logo_header span {
+	color: #d8cfe4;
+	font-weight: 800;
+}
+
+.logo_header a {
+	color: #101010;
+	font-weight: 200;
+}
+
+.navbar {
+	float: right;
+	height: 100%;
+}
+
+.navbar a {
+	color: #101010;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+	font-size: 18px;
+	height: 100%;
+	font-family: Montserrat;
+}
+
+.navbar a:last-child {
+	padding-right: 0;
+}
+
+.navbar a li {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/******************************* TOP container  ***********************/
+
+.top-container {
+	position: relative;
+	top: 10%;
+	height: 800px;
+	width: 100%;
+	background-image: url(images/Diary-bg.png);
+}
+
+.top_text_wrap {
+	position: relative;
+	width: 100%;
+	height: 275px;
+	display: block;
+	top: 20%;
+}
+
+.greeting_container {
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+
+.greeting_container h1 {
+	font-weight: 600;
+	font-size: 3rem;
+}
+
+.top_contact_btn {
+	position: relative;
+	top: 15%;
+	padding: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	width: 20%;
+	border: 1px solid #000;
+	border-radius: 40px;
+	font-family: Montserrat;
+	text-align: center;
+	background-color: #e2efff;
+	transition: 0.3s;
+	font-weight: 300;
+}
+
+.top_contact_btn:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.top_contact_btn:focus {
+	outline: none;
+}
+
+/******************************* About container  ***********************/
+
+.about_container {
+	width: 100%;
+	height: 800px;
+	background-color: #e2efff;
+}
+
+.img_text_container {
+	display: table;
+	width: 1000px;
+	height: 100%;
+	background-color: #e2efff;
+	margin: 0 auto;
+}
+
+.img_container {
+	width: 200px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.kamila_img {
+	width: 350px;
+	border-radius: 15px;
+}
+
+.about_text_container {
+	position: relative;
+	top: 90px;
+	left: 40px;
+	width: 560px;
+}
+.about_text_container h1 {
+	font-family: 'Caveat', cursive;
+	font-size: 80px;
+	font-weight: 400;
+}
+
+.about_text_container h3 {
+	position: relative;
+	top: 10px;
+	width: 520px;
+	height: 100%;
+	font-weight: 550;
+}
+
+.about_text_container p {
+	position: relative;
+	top: 21px;
+	line-height: 1.6;
+}
+
+/******************************* Education container  ***********************/
+
+.education_container {
+	width: 100%;
+	height: 500px;
+	background-color: #e2efff;
+}
+
+.education_title {
+	position: relative;
+	text-align: center;
+}
+
+.education_title h1 {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+/********************************** Benefits *****************************/
+
+.benefits {
+	position: relative;
+	top: 10%;
+}
+
+.benefits_wrap {
+	display: flex;
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	flex-direction: row;
+}
+
+.parent_1 {
+	position: relative;
+	width: 26.3%;
+}
+
+.parent_1 h1 {
+	font-size: 10rem;
+	color: #d9adad;
+	opacity: 50%;
+}
+
+.child_1 {
+	position: absolute;
+	top: 70px;
+	left: 77px;
+}
+
+.child_1 p {
+	font-weight: 700;
+}
+
+.parent_2 {
+	position: relative;
+	width: 26.3%;
+	margin: 0 auto;
+}
+
+.parent_2 h1 {
+	font-size: 10rem;
+	opacity: 90%;
+	color: #f2dcbb;
+}
+
+.child_2 {
+	position: absolute;
+	top: 70px;
+	left: 77px;
+}
+
+.child_2 p {
+	font-weight: 700;
+}
+
+.parent_3 {
+	position: relative;
+	width: 26.3%;
+	float: right;
+}
+
+.parent_3 h1 {
+	font-size: 10rem;
+	opacity: 90%;
+	color: #bedcfa;
+}
+
+.child_3 {
+	position: absolute;
+	top: 70px;
+	left: 77px;
+}
+
+.child_3 p {
+	font-weight: 700;
+}
+
+/********************************** Contact Container *****************************/
+
+.contact_container {
+	height: 550px;
+	background-color: #d7cee3;
+	/* background-image: linear-gradient(#e2efff, #41584b); */
+}
+
+.contact_text_img_wrap {
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.contact_title {
+	position: relative;
+	top: 10%;
+}
+
+.contact_title h1 {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+.bottom_btn {
+	position: relative;
+	top: 25%;
+}
+
+.bottom_contact_btn {
+	margin-left: 40%;
+	padding: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	width: 20%;
+	border: 1px solid #000;
+	border-radius: 40px;
+	font-family: Montserrat;
+	text-align: center;
+	background-color: #d7cee3;
+	transition: 0.3s;
+	font-weight: 300;
+}
+
+.bottom_contact_btn:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.bottom_contact_btn:focus {
+	outline: none;
+}
+
+/********************************** Contact Container Images *****************************/
+
+.notepad {
+	position: relative;
+	top: 8%;
+	width: 25%;
+	margin-left: 60%;
+	transform: rotate(25deg);
+}
+
+.pen {
+	position: relative;
+	width: 2%;
+	transform: rotate(25deg);
+	top: 10%;
+	left: 2%;
+}
+
+.clip_1 {
+	position: relative;
+	width: 2%;
+	top: 10%;
+	left: 40%;
+	transform: rotate(120deg);
+}
+
+.clip_2 {
+	position: relative;
+	width: 2%;
+	right: 40%;
+	transform: rotate(60deg);
+}
+
+.clip_3 {
+	position: relative;
+	width: 2%;
+	right: 60%;
+	transform: rotate(100deg);
+}
+
+/**************************** Footer **************************/
+
+footer {
+	height: 100px;
+	background-color: #382039;
+}
+
+.footer_container {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.social_media {
+	position: relative;
+	width: fit-content;
+	top: 15%;
+	left: 33%;
+}
+
+.social_media a {
+	color: #101010;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+	font-size: 18px;
+	height: 100%;
+	font-family: Montserrat;
+}
+
+.social_media a:hover {
+	color: #d7cee3;
+}
+
+.made_with_love {
+	position: relative;
+	top: 70%;
+	right: 1.5%;
+	color: #101010;
+	font-size: 15px;
+}
